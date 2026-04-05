@@ -6,7 +6,7 @@
             [
                 'title' => 'Custom Web Development',
                 'subtitle' => 'Custom-built websites and web systems tailored to your workflow, brand, and business goals.',
-                'image' => '/images/service/web development.png',
+                'image' => '/images/service/web development.webp',
                 'points' => [
                     'Business website development',
                     'Custom admin panels',
@@ -19,7 +19,7 @@
             [
                 'title' => 'WordPress Website',
                 'subtitle' => 'Professional WordPress websites with clean design, easy content management, and modern presentation.',
-                'image' => '/images/service/wordpress.png',
+                'image' => '/images/service/wordpress.webp',
                 'points' => [
                     'Corporate website setup',
                     'Landing pages and service pages',
@@ -32,7 +32,7 @@
             [
                 'title' => 'Digital Marketing',
                 'subtitle' => 'Smart digital campaigns and brand communication strategies designed to improve visibility and growth.',
-                'image' => '/images/service/digital marketing.png',
+                'image' => '/images/service/digital marketing.webp',
                 'points' => [
                     'Campaign planning',
                     'Content direction',
@@ -45,7 +45,7 @@
             [
                 'title' => 'Lead Generation',
                 'subtitle' => 'Lead-focused systems and digital funnels that help businesses attract and convert potential clients.',
-                'image' => '/images/service/Lead Generation.png',
+                'image' => '/images/service/Lead Generation.webp',
                 'points' => [
                     'Lead funnel design',
                     'Contact capture pages',
@@ -58,7 +58,7 @@
             [
                 'title' => 'AI Automation',
                 'subtitle' => 'Practical AI-powered workflow solutions that save time, reduce manual work, and improve efficiency.',
-                'image' => '/images/service/ai automation.png',
+                'image' => '/images/service/ai automation.webp',
                 'points' => [
                     'Business process automation',
                     'AI-assisted workflow ideas',
@@ -107,7 +107,7 @@
                         <div class="service-feature__media">
                             <div class="service-feature__media-frame">
                                 <div class="service-feature__media-glow"></div>
-                                <img src="{{ asset($service['image']) }}" alt="{{ $service['title'] }}"
+                                <img loading="lazy" src="{{ asset($service['image']) }}" alt="{{ $service['title'] }}"
                                     class="service-feature__image">
                             </div>
                         </div>

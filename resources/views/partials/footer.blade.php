@@ -17,7 +17,7 @@
     <div class="site-shell !max-w-none !px-0">
         <div class="footer-premium">
             <div class="footer-premium__bg footer-premium__bg--one">
-                <img src="{{ asset('/images/service/img2.png') }}" alt="" class="footer-premium__bg-image">
+                <img src="{{ asset('/images/service/img2.webp') }}" alt="" class="footer-premium__bg-image">
             </div>
 
             <div class="footer-premium__overlay"></div>

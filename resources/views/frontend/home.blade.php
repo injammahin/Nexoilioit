@@ -20,22 +20,20 @@
 
                         <div class="hero-team-card hero-team-card--left">
                             <div class="hero-team-card__shape hero-team-card__shape--left bg-sky-500">
-                                <img src="https://hub.thoughtbot.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjU3MiwicHVyIjoiYmxvYl9pZCJ9fQ==--e83e45c7744c77a0bb54769010d67d860ba0dbf0/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJxdWFsaXR5IjoiMTAwJSIsInJlc2l6ZV90b19maWxsIjpbMzIwLDMyMCx7ImdyYXZpdHkiOiJub3J0aCJ9XSwic2hhcnBlbiI6IjB4MSJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--4e69eea56bee5c4c1ba95083ed4c16d30c700c0a/Moses_Amama_.png"
-                                    alt="Team member 1" class="hero-team-card__img">
+                                <img src="/images/team/Moses_Amama_.webp" alt="Team member 1" class="hero-team-card__img">
                             </div>
                         </div>
 
                         <div class="hero-team-card hero-team-card--top">
                             <div class="hero-team-card__shape hero-team-card__shape--top bg-fuchsia-500">
-                                <img src="https://hub.thoughtbot.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6NjUzNCwicHVyIjoiYmxvYl9pZCJ9fQ==--60a9e8abcae19e6b00940225a88cad15d65ac73c/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJxdWFsaXR5IjoiMTAwJSIsInJlc2l6ZV90b19maWxsIjpbMzIwLDMyMCx7ImdyYXZpdHkiOiJub3J0aCJ9XSwic2hhcnBlbiI6IjB4MSJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--4e69eea56bee5c4c1ba95083ed4c16d30c700c0a/Alex_Chen.png"
-                                    alt="Team member 2" class="hero-team-card__img">
+                                <img src="/images/team/Alex_Chen.webp" alt="Team member 2" class="hero-team-card__img">
                             </div>
                         </div>
 
                         <div class="hero-team-card hero-team-card--bottom">
                             <div class="hero-team-card__shape hero-team-card__shape--bottom bg-emerald-400/90">
-                                <img src="https://hub.thoughtbot.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6MzM1MCwicHVyIjoiYmxvYl9pZCJ9fQ==--115784d8bff605abb519536a30c60f1a7737f62b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJxdWFsaXR5IjoiMTAwJSIsInJlc2l6ZV90b19maWxsIjpbMzIwLDMyMCx7ImdyYXZpdHkiOiJub3J0aCJ9XSwic2hhcnBlbiI6IjB4MSJ9LCJwdXIiOiJ2YXJpYXRpb24ifX0=--4e69eea56bee5c4c1ba95083ed4c16d30c700c0a/Eric_Milford.png"
-                                    alt="Team member 3" class="hero-team-card__img hero-team-card__img--faded">
+                                <img src="/images/team/Eric_Milford.webp" alt="Team member 3"
+                                    class="hero-team-card__img hero-team-card__img--faded">
                             </div>
                         </div>
                     </div>
@@ -47,10 +45,8 @@
         <div class="showreel-sticky">
             <div class="showreel-shell">
                 <div class="showreel-card js-showreel-card">
-                    <video class="showreel-video js-showreel-video" autoplay muted loop playsinline preload="auto"
-                        poster="{{ asset('images/showreel-poster.webp') }}">
-                        <source src="{{ asset('/videos/to.mp4') }}" type="video/mp4">
-                        Your browser does not support the video tag.
+                    <video class="showreel-video js-showreel-video" muted loop playsinline preload="none">
+                        <source src="{{ asset('videos/to.mp4') }}" type="video/mp4">
                     </video>
 
                     <div class="showreel-overlay">
@@ -85,37 +81,37 @@
                 'key' => 'branding',
                 'title' => 'Branding',
                 'copy' => 'We shape strong visual identities, brand direction, and digital-first presentation systems so your business looks premium, consistent, and memorable across every touchpoint.',
-                'image' => '/images/service/img1.png',
+                'image' => '/images/service/img1.webp',
             ],
             [
                 'key' => 'digital-products',
                 'title' => 'Digital Products',
                 'copy' => 'From dashboards to SaaS platforms, we design digital products that feel modern, intuitive, and built around how real users move through a workflow.',
-                'image' => '/images/service/img2.png',
+                'image' => '/images/service/img1.webp',
             ],
             [
                 'key' => 'websites',
                 'title' => 'Websites',
                 'copy' => 'We build clean, high-converting company websites, landing pages, and portfolio experiences that reflect trust, clarity, and performance.',
-                'image' => 'images/services/websites.webp',
+                'image' => '/images/service/img1.webp',
             ],
             [
                 'key' => 'development',
                 'title' => 'Development',
                 'copy' => 'Our team develops fast, scalable web applications, admin systems, automation tools, and custom business platforms using modern technologies.',
-                'image' => 'images/services/development.webp',
+                'image' => '/images/service/img1.webp',
             ],
             [
                 'key' => 'content',
                 'title' => 'Content',
                 'copy' => 'We help structure words, visuals, and presentation layers so your products and services communicate clearly, professionally, and persuasively.',
-                'image' => 'images/services/content.webp',
+                'image' => '/images/service/img1.webp',
             ],
             [
                 'key' => 'generative-ai',
                 'title' => 'Generative AI',
                 'copy' => 'We explore practical AI solutions, smart assistants, workflow automation, and AI-powered digital experiences that create real business value.',
-                'image' => 'images/services/generative-ai.webp',
+                'image' => '/images/service/img1.webp',
             ],
         ];
     @endphp
@@ -257,8 +253,8 @@
                 'title' => 'Keshoriya ',
                 'category' => 'E-commerce',
                 'type' => 'video',
-                'thumb' => '/images/work/keshoriya.png',
-                'video' => 'videos/work/erp-demo.mp4',
+                'thumb' => '/images/work/keshoriya.webp',
+                'video' => null,
                 'url' => 'https://keshoriya.com/',
                 'size' => 'work-card--xl',
             ],
@@ -266,8 +262,8 @@
                 'title' => 'TiktoSlang',
                 'category' => 'Business Website',
                 'type' => 'video',
-                'thumb' => '/images/work/tiktokslang.png',
-                'video' => 'public/images/work/tiktokslang.mp4',
+                'thumb' => '/images/work/tiktokslang.webp',
+                'video' => null,
                 'url' => 'http://tiktokslang.nexolioit.com/live-trends',
                 'size' => 'work-card--sm',
             ],
@@ -275,8 +271,8 @@
                 'title' => 'VUY-LMS',
                 'category' => 'LMS Product',
                 'type' => 'video',
-                'thumb' => '/images/work/lms.png',
-                'video' => 'videos/work/seller-order.mp4',
+                'thumb' => '/images/work/lms.webp',
+                'video' => null,
                 'url' => 'https://virtualuniversityofyahweh.com/',
                 'size' => 'work-card--md',
             ],
@@ -284,7 +280,7 @@
                 'title' => 'Fluidstream',
                 'category' => 'CMS Website',
                 'type' => 'image',
-                'thumb' => '/images/work/fluidstream.png',
+                'thumb' => '/images/work/fluidstream.webp',
                 'video' => null,
                 'url' => 'https://fluidstream.nexolioit.com/',
                 'size' => 'work-card--lg',
